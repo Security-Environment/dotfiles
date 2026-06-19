@@ -5,4 +5,4 @@ set -e
 [ -f .tmux.conf ] && cp .tmux.conf ~/.tmux.conf
 [ -f .vimrc ] && cp .vimrc ~/.vimrc
 
-echo "Dotfiles installed."
+echo "Dotfiles installed into $HOME"
